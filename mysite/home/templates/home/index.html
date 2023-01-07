@@ -1,0 +1,59 @@
+{% load static %}
+
+<head>
+    <link rel="stylesheet" type='text/css' href="{% static 'home/home.css' %}"/>
+</head>
+<body>
+<div class="header">
+    <div class="titles">
+        <h2>Portflio</h2>
+        <div class="links">
+            <a>Projects</a>
+            <a>Blog</a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="text">
+           <h2 class="title">Satoshi's Website</h2>
+           <p>This website was made to showcase my Webdevelopment and Data Analysis Skills.</p>
+        </div>
+        <div class="img-div">
+            <img class="woods" alt="Sunset in woods" src="{% static 'home/images/woods.jpg' %}">
+        </div>
+       
+    </div>
+</div>
+<div class="works">
+    <h1>My Works</h1>
+    <div class="logos">
+        <div class="work">
+            <img class="logo" alt="projects" src="{% static 'home/images/projects.png' %}">
+            <p>Projects</p>
+        </div>
+        <div class="work">
+          <img class="logo" alt="cat" src="{% static 'home/images/cat.png' %}">
+          <p>Blog</p>
+        </div>
+        <div class="work">
+        <a href="https://github.com/Satoshi-Sh" target="_blank">
+           <img class="logo" alt="github logo" src="{% static 'home/images/GitHub.png' %}">
+        </a>
+        <p>GitHub Profile</p>
+        </div>
+        <div class="work">
+        <a href="https://www.kaggle.com/satoshiss" target="_blank">
+          <img class="logo" alt="kaggle logo" src="{% static 'home/images/kaggle.png' %}">
+        </a>
+        <p>Kaggle</p>
+        </div>
+        </div>
+</div>
+
+<div class="about">
+    <p>
+    An Aspiring Web Developer and Data Analyst. Proficient with Python and Javascript. Familiar with various 
+    webdevelopment tools such as Django, Express, SQL, NoSQL, React, and so on.
+    </p>
+</div>
+<footer>CopyrightⒸ Satoshi S.</footer>
+</body>

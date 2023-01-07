@@ -1,0 +1,110 @@
+body, html {
+    margin:0px;
+    padding:0px;
+}
+body {
+    display:flex;
+    flex-direction: column;
+    height:100vh;
+}
+.header{
+    flex:3;
+    padding:10px;
+    background-color: 1F2937;
+    color:white;
+}
+
+.titles {
+    display:flex;
+    flex-direction: rows;
+    align-items:center;
+    justify-content: space-between;
+    padding:10px;
+}
+.links {
+    font-size:20px;
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+}
+
+.content {
+    padding:10px;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.title{
+    font-size:35px;
+    font-weight: 600;
+}
+.text p {
+    width:50%;
+    font-size: 20px;
+}
+.woods{
+    width:250px;
+    height:180px;
+}
+
+.logos{
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width:100px;
+    height:100px;
+    border: solid 2px grey;
+    border-radius:20px;
+
+}
+
+.works {
+    flex:4;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+}
+
+.about{
+    flex:3;
+    padding:10px;
+    background-color: #E5E7EB;
+    font-size:25px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+
+}
+.about p{
+    width:50%;
+    min-width:300px;
+    
+}
+
+.work {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    flex:0.5
+    background-color: #E5E7EB;
+    height:20px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
