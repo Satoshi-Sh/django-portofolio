@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block page_content %}
+{% load static %}
+<head>
+    <link rel="stylesheet" type='text/css' href="{% static 'blog/detail.css' %}"/>
+</head>
+<div class="post">
+    <div class="header">
+    <h1 class="title">{{ post.title }}</h1>
+    <small>
+        {{ post.created_on.date }} |&nbsp;
+        Categories:&nbsp;
+        {% for category in post.categories.all %}
+        <a href="{% url 'category' category.name %}">
+            {{ category.name }}
+        </a>&nbsp;
+        {% endfor %}
+    </small>
+    </div>
+    <div class="imageDiv">
+    <img src="{{post.image}}" atl="scenary">
+    </div>
+    <div class="text">
+    <p>{{ post.body | linebreaks |urlize }}</p>
+    </div>
+</div>
+{% endblock %}

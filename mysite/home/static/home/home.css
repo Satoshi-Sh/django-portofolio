@@ -65,6 +65,10 @@ body {
     border-radius:20px;
 
 }
+.logo:hover {
+    border:solid 2px blue;
+    transform:scale(1.1)
+}
 
 .works {
     flex:4;
@@ -100,7 +104,7 @@ body {
 }
 
 footer {
-    flex:0.5
+    flex:0.5;
     background-color: #E5E7EB;
     height:20px;
     display:flex;
@@ -108,3 +112,7 @@ footer {
     align-items:center;
 }
 
+a {
+    color:white;
+    text-decoration: none;
+}

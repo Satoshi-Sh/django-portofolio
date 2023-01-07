@@ -1,15 +1,17 @@
 {% load static %}
 
 <head>
+    <link rel="shortcut icon" type="image/png" href="{% static 'home/images/favicon.ico' %}"/>
     <link rel="stylesheet" type='text/css' href="{% static 'home/home.css' %}"/>
+    <title>Portfolio</title>
 </head>
 <body>
 <div class="header">
     <div class="titles">
         <h2>Portflio</h2>
         <div class="links">
-            <a>Projects</a>
-            <a>Blog</a>
+            <a href="/projects">Projects</a>
+            <a href="/blog">Blog</a>
         </div>
     </div>
     <div class="content">
@@ -27,18 +29,22 @@
     <h1>My Works</h1>
     <div class="logos">
         <div class="work">
+            <a href="/projects">
             <img class="logo" alt="projects" src="{% static 'home/images/projects.png' %}">
+            </a>
             <p>Projects</p>
         </div>
         <div class="work">
+          <a href="/blog">
           <img class="logo" alt="cat" src="{% static 'home/images/cat.png' %}">
+          </a>
           <p>Blog</p>
         </div>
         <div class="work">
         <a href="https://github.com/Satoshi-Sh" target="_blank">
            <img class="logo" alt="github logo" src="{% static 'home/images/GitHub.png' %}">
         </a>
-        <p>GitHub Profile</p>
+        <p>GitHub</p>
         </div>
         <div class="work">
         <a href="https://www.kaggle.com/satoshiss" target="_blank">
