@@ -7,7 +7,7 @@
 </p>
 
 ### Description
- Fullstack website created with Django, showcasing projects and blog posts. Used flexbox and bootstrap to design the page layouts, and Sqllite as a database. Blog posts can be searched by categories.   
+ Fullstack website created with Django, hosted on Pythonanywhere, and showcasing projects and blog posts. Used flexbox and bootstrap to design the page layouts, and Sqllite as a database. Blog posts can be searched by categories.   
  
 ### Live Page
 https://satoshi40.pythonanywhere.com/
